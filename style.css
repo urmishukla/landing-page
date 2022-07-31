@@ -7,7 +7,7 @@ body {
 .header {
     background-color: #1F2937;
     display: flex;
-    padding: 24px;
+    padding: 6px;
     padding-left: 10%;
     padding-right: 10%;
     flex-direction: column;
@@ -24,6 +24,8 @@ body {
     display: flex;
     justify-content: center;
     gap: 24px;
+    padding-top: 48px;
+    padding-bottom: 48px;
 }
 
 .right-side {
@@ -59,6 +61,7 @@ p {
     font-size: 18px;
     color: #E5E7EB;
     margin: 0px;
+    font-weight: normal;
 }
 
 button {
@@ -90,7 +93,8 @@ button {
 
 .illustrations {
     display: flex;
-    gap: 24px;
+    gap: 36px;
+    padding-bottom: 24px;
 }
 
 .image {
@@ -116,7 +120,7 @@ button {
     font-style: italic;
     font-weight: lighter;
     color: #1F2937;
-    width: 50%;
+    width: 65%;
 }
 
 .attribution {
@@ -145,6 +149,7 @@ button {
 
 .right {
     font-size: 24px;
+    font-weight: bold;
     color: white;
 }
 
