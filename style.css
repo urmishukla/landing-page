@@ -67,3 +67,45 @@ button {
 #blue-button {
     border: none;
 }
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    padding: 24px;
+}
+
+.info-title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.illustrations {
+    display: flex;
+    gap: 24px;
+}
+
+.image {
+    display: flex;
+    width: 100px;
+    flex-direction: column;
+}
+
+#darker {
+    color: darkgray;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+}
+
+.italics {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
