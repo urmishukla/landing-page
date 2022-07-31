@@ -2,6 +2,7 @@ body {
     margin: 0px;
     display: flex;
     flex-direction: column;
+    font-family: ;
 }
 
 .header {
@@ -112,9 +113,12 @@ button {
 .quote {
     display: flex;
     padding: 48px;
+    gap: 16px;
     flex-direction: column;
     background-color: #E5E7EB;
-    align-items: center;
+    padding-left: 24%;
+    padding-right: 24%;
+    justify-content: center;
 }
 
 .italics {
@@ -122,11 +126,12 @@ button {
     font-style: italic;
     font-weight: lighter;
     color: #1F2937;
-    width: 65%;
 }
 
 .attribution {
+    padding-right: 40px;
     text-align: right;
+    font-size: 20px;
 }
 
 .action {
